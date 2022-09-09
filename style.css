@@ -1,0 +1,52 @@
+head,body{
+    height: 100%;
+    width: 100%;
+}
+
+.siz{
+    font-size: 6vmin;
+    font-weight: bold;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    height: 7vmin;
+    width: 42vmin;
+    margin: 0.5vw;
+    padding: 1vw 1vw;
+    font-size: 3vw;
+}
+
+.btn{
+    font-size: 4vmin;
+    width: 10vmin;
+    margin: 0.5vw 0.4vw;
+    height: 8vmin;
+    padding: 0.2vw 0.1vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .btn{
+        font-size: 3vw;
+        width: 9vw;
+        margin: 1vw 1vw;
+        height: 9vw;
+        padding: 1vw 1vw;
+    }
+
+    .input{
+        width: 40vw;
+        margin: 1vw;
+        padding: 1vw 1vw;
+        font-size: 3vw;
+    }
+
+    siz{
+        font-size: 5vw;
+        font-weight: bold;
+    }
+}
